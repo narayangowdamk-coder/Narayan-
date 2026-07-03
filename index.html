@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Narayan Gowda — Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Rajdhani:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <span class="nav-brand">NG</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE FULL-SCREEN GLASS DRAWER -->
+  <div class="nav-drawer" id="navDrawer">
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- CINEMATIC HERO -->
+  <section class="hero">
+    <div class="hero-bg-wrap">
+      <div class="hero-bg-slide active" style="background-image:url('hero-bg.jpg')"></div>
+      <div class="hero-bg-slide" style="background-image:url('hero-bg-2.jpg')"></div>
+      <div class="hero-bg-slide" style="background-image:url('hero-bg-3.jpg')"></div>
+      <div class="hero-bg-slide" style="background-image:url('hero-bg-4.jpg')"></div>
+    </div>
+    <div class="hero-carbon"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow-red"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-vignette"></div>
+
+    <div class="hero-content">
+      <img class="hero-avatar" src="profile.jpg" alt="Narayan Gowda">
+      <div class="hero-eyebrow">Full Stack Developer</div>
+      <h1 class="hero-title">
+        NARAYAN
+        <span class="accent-line">GOWDA</span>
+      </h1>
+
+      <div class="hero-video-card">
+        <video id="showcaseVideo" autoplay muted loop playsinline poster="">
+          <source src="myvideo.mp4" type="video/mp4">
+        </video>
+        <button id="soundToggle" aria-label="Toggle sound">🔇</button>
+      </div>
+
+      <p class="hero-sub">Building fast, precise, and premium digital experiences</p>
+      <p class="hero-tagline">Power. Precision. Passion.</p>
+      <div class="hero-cta">
+        <a href="#" class="btn-primary">View Projects</a>
+        <a href="#" class="btn-ghost">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll"></div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="skills" id="skills">
+    <div class="skills-bg-wrap">
+      <div class="skills-bg-slide active" style="background-image:url('skill-bg-1.jpg')"></div>
+      <div class="skills-bg-slide" style="background-image:url('skill-bg-2.jpg')"></div>
+      <div class="skills-bg-slide" style="background-image:url('skill-bg-3.jpg')"></div>
+      <div class="skills-bg-slide" style="background-image:url('skill-bg-4.jpg')"></div>
+      <div class="skills-bg-slide" style="background-image:url('skill-bg-5.jpg')"></div>
+    </div>
+    <div class="skills-overlay"></div>
+    <div class="skills-glow"></div>
+
+    <div class="skills-content">
+      <div class="showcase-label">What I Work With</div>
+      <h2 class="skills-title">Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML5">
+          <span>HTML5</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.simpleicons.org/css3/1572B6" alt="CSS3">
+          <span>CSS3</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript">
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.simpleicons.org/react/61DAFB" alt="React">
+          <span>React</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="Tailwind CSS">
+          <span>Tailwind CSS</span>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.simpleicons.org/git/F05032" alt="Git">
+          <span>Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
